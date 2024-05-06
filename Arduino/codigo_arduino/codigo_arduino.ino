@@ -1,6 +1,6 @@
 #include "DHT.h" // Inclui a biblioteca DHT para lidar com o sensor DHT
 
-#define dht_type DHT11 // Define o tipo de sensor DHT utilizado, neste caso o DHT11
+#define dht_type DHT11 // Define o tipo de sensor DHT utilizado, criando uma constante
 
 int dht_pin = A0; // Define o pino analógico A0 como o pino de entrada de dados do sensor DHT
 DHT dht_1 = DHT(dht_pin, dht_type);// Inicializa o sensor DHT com o pino definido e o tipo
